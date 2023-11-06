@@ -1,0 +1,160 @@
+<!DOCTYPE html> <!-- Declaração do tipo de documento HTML5 -->
+<html lang="en"> <!-- Abertura do elemento HTML com idioma definido como inglês -->
+<head> <!-- Início da seção de cabeçalho da página -->
+    <title>Tech News</title> <!-- Título da página exibido na barra de título do navegador -->
+    <meta charset="UTF-8"> <!-- Configuração da codificação de caracteres para UTF-8 -->
+    <meta name="description" content="Notícias de Tecnologia"> <!-- Descrição da página para mecanismos de busca -->
+    <meta name="keywords" content="Notícias, Tecnologia, Hardware, Ultimas notícias tech"> <!-- Palavras-chave associadas à página (menos importante para SEO) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuração da visualização da página para dispositivos móveis -->
+    
+    <!-- LINKS CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Pré-conexão ao servidor do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Pré-conexão ao servidor do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Pré-conexão ao servidor do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Pré-conexão ao servidor de fontes com atributo "crossorigin" -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> <!-- Vínculo ao arquivo de estilo da fonte Poppins do Google Fonts -->
+    <link href="./CSS/STYLE.css" rel="stylesheet"> <!-- Vínculo ao arquivo de estilo local "STYLE.css" na pasta "CSS" -->
+    <link rel="stylesheet" href="./CSS/global.css"> <!-- Vínculo ao arquivo de estilo local "global.css" na pasta "CSS" -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Vínculo ao arquivo de estilo externo do Font Awesome via CDN -->
+</head> <!-- Fim da seção de cabeçalho da página -->
+
+<body> <!-- Início do corpo da página -->
+    <header> <!-- Cabeçalho da página -->
+        <div class="container__header"> <!-- Contêiner do cabeçalho -->
+            <div class="logo"> <!-- Logotipo -->
+                <img src="IMAGENS/IMG3.svg" alt="Logo Tech News"> <!-- Imagem do logotipo com descrição alternativa -->
+            </div><!--Logo-->
+
+            <div class="menu-btn"> <!-- Botão de menu -->
+                <i class="fa fa-bars fa-2x" onclick="ShowNavBar()" style="font-size: 30px;"></i> <!-- Ícone de menu com evento de clique associado -->
+            </div>
+
+            <ul class="header-display"> <!-- Lista de navegação do cabeçalho -->
+                <li><a href="INDEX.html">INÍCIO</a></li> <!-- Item de menu "Início" com link para INDEX.html -->
+                <li><a href="INSCRICAO.php">INSCRIÇÃO</a></li> <!-- Item de menu "Inscrição" com link para INSCRICAO.php -->
+                <li><a href="NOTICIAS.html">ACESSAR NOTÍCIAS</a></li> <!-- Item de menu "Acessar Notícias" com link para NOTICIAS.html -->
+            </ul>
+        </div><!--Center-->
+    </header>
+
+    <section class="main"> <!-- Início da seção principal -->
+        <div class="container_main_cta"> <!-- Contêiner da seção principal -->
+            <div class="main__cta"> <!-- Área de chamada principal -->
+                <h2>Seja bem vindo!</h2> <!-- Título de boas-vindas -->
+                <p>Tech News</p> <!-- Parágrafo com o nome "Tech News" -->
+            </div><!--Main-cta-->
+    
+            <div class="diferenciais"> <!-- Seção de diferenciais -->
+                <div class="diferencial-single"> <!-- Diferencial individual -->
+                    <i class="fa-solid fa-window-restore"></i> <!-- Ícone de janela de restauração -->
+                    <h2>Notícias</h2> <!-- Título "Notícias" -->
+                    <p>Seja o primeiro a saber o que está acontecendo no mundo da tecnologia.</p> <!-- Descrição do diferencial "Notícias" -->
+                </div><!--Diferencial-single-->
+    
+                <div class="diferencial-single"> <!-- Diferencial individual -->
+                    <i class="fa-solid fa-shield"></i> <!-- Ícone de escudo -->
+                    <h2>Segurança</h2> <!-- Título "Segurança" -->
+                    <p>Temos compromisso com a verdade e a precisão. Nós nos esforçamos para fornecer informações confiáveis e verificadas.</p> <!-- Descrição do diferencial "Segurança" -->
+                </div><!--Diferencial-single-->
+    
+                <div class="diferencial-single"> <!-- Diferencial individual -->
+                    <i class="fa-solid fa-microchip"></i> <!-- Ícone de microchip -->
+                    <h2>Hardware</h2> <!-- Título "Hardware" -->
+                    <p>Fique atualizado com o mundo da tecnologia de hardware.</p> <!-- Descrição do diferencial "Hardware" -->
+                </div><!--Diferencial-single-->
+    
+                <div class="diferencial-single"> <!-- Diferencial individual -->
+                    <i class="fa-solid fa-share"></i> <!-- Ícone de compartilhamento -->
+                    <h2>Compartilhe</h2> <!-- Título "Compartilhe" -->
+                    <p>Compartilhe as descobertas e novidades tecnológicas com seus amigos e seguidores.</p> <!-- Descrição do diferencial "Compartilhe" -->
+                </div><!--Diferencial-single-->
+            </div><!--Diferenciais-->
+        </div><!--Center-->
+    </section><!--Main-->
+
+
+    <section class="sobre"> <!-- Seção "Sobre" -->
+        <div class="sobre__container"> <!-- Contêiner da seção "Sobre" -->
+            <div class="center"> <!-- Contêiner central -->
+                <div class="chamada-sobre"> <!-- Área de chamada "Sobre" -->
+                    <h2>Sobre a Tech News</h2> <!-- Título "Sobre a Tech News" -->
+                    <p>Na Tech News, acreditamos que o mundo está em constante evolução, impulsionado pela inovação e pela tecnologia. Como uma fonte líder de notícias de tecnologia, estamos comprometidos em mantê-lo atualizado com as últimas tendências, descobertas e avanços no emocionante mundo da tecnologia.</p> <!-- Descrição da Tech News -->
+                </div><!--Chamada-sobre-->
+                <div class="conteudo-sobre"> <!-- Conteúdo "Sobre" -->
+                    <p>Nossa missão é capacitar você com informações confiáveis e inspiradoras para que você possa navegar com confiança em um mundo movido pela tecnologia. Seja você um entusiasta de tecnologia, um empresário inovador ou um profissional da área, estamos aqui para ajudá-lo a prosperar na era digital.<br><br>
+                        <span><i class="fa-solid fa-check-double"></i> Notícias de Última Hora<br/></span> <!-- Lista de verificação de "Notícias de Última Hora" -->
+                        <span><i class="fa-solid fa-check-double"></i> Análises Aprofundadas<br/></span> <!-- Lista de verificação de "Análises Aprofundadas" -->
+                        <span><i class="fa-solid fa-check-double"></i> Artigos Especiais</span> <!-- Lista de verificação de "Artigos Especiais" -->
+                    </p>
+                    <p>Nossa equipe de especialistas em tecnologia está constantemente vasculhando o cenário global em busca das últimas tendências, inovações e desenvolvimentos que estão moldando o nosso futuro. Desde smartphones inovadores até avanços em inteligência artificial, realidade virtual e muito mais, estamos sempre um passo à frente para trazer até você informações essenciais.</p> <!-- Descrição adicional -->
+                </div><!--Conteúdo-sobre-->
+            </div><!--Center-->
+        </div><!--Sobre__container-->
+    </section><!--Sobre-->
+
+    <section class="conquistas"> <!-- Seção "Conquistas" -->
+        <div class="container__conquistas"> <!-- Contêiner da seção "Conquistas" -->
+            <div class="conquista-single"> <!-- Conquista individual -->
+                <h2><i class="fa-solid fa-person"></i> +50 mil Seguidores</h2> <!-- Título "50 mil Seguidores" com ícone de pessoa -->
+            </div><!--Conquista-single-->
+            <div class="conquista-single"> <!-- Conquista individual -->
+                <h2><i class="fa-solid fa-file"></i> +5 mil Notícias</h2> <!-- Título "+5 mil Notícias" com ícone de arquivo -->
+            </div><!--Conquista-single-->
+            <div class="conquista-single"> <!-- Conquista individual com erro de sintaxe (faltando o sinal de igual na atribuição do atributo "class") -->
+                <h2><i class="fa-solid fa-bolt"></i> Reconhecimento na Indústria</h2> <!-- Título "Reconhecimento na Indústria" com ícone de raio (relâmpago) -->
+            </div><!--Conquista-single-->
+            <div class="conquista-single"> <!-- Conquista individual -->
+                <h2><i class="fa-solid fa-trophy"></i> Crescimento Exponencial</h2> <!-- Título "Crescimento Exponencial" com ícone de troféu -->
+            </div><!--Conquista-single-->
+        </div><!--Center-->
+    </section><!--Conquistas-->
+
+    <section class="sobre-empreendedor"> <!-- Seção "Sobre Empreendedor" -->
+        <div class="container__sobre-empreendedor"> <!-- Contêiner da seção "Sobre Empreendedor" -->
+            <img class="sobre-empreendedor-img" src="IMAGENS/equipe.jpg" alt="Nossa Equipe"> <!-- Imagem da equipe com descrição alternativa -->
+            <div class="sobre-empreendedor-content"> <!-- Conteúdo "Sobre Empreendedor" -->
+                <h2>Nossa Equipe</h2> <!-- Título "Nossa Equipe" -->
+                <p>Cada membro de nossa equipe traz uma riqueza de experiência e expertise para o nosso ambiente de trabalho. Nossos engenheiros, desenvolvedores e especialistas em tecnologia são graduados das principais instituições de ensino e têm um histórico impressionante de projetos de sucesso em seus currículos. Eles são verdadeiros especialistas em suas respectivas áreas, desde desenvolvimento de software e engenharia de hardware até segurança cibernética e inteligência artificial.</p> <!-- Descrição da equipe -->
+            </div><!--Sobre-empreendedor-content-->
+        </div><!--Center-->
+    </section><!--Sobre-empreendedor-->
+
+    <section class="conquistas" style="background-color: white;"> <!-- Seção "Conquistas" com plano de fundo branco -->
+        <div class="parcerias"> <!-- Divisão "Parcerias" -->
+            <h2 style="text-align: center;">Nossos parceiros</h2> <!-- Título "Nossos parceiros" centralizado -->
+        </div><!--Parcerias-->
+    
+        <div class="container_parcerias"> <!-- Contêiner de parcerias -->
+            <div class="conquista-single" style="width:16%;"> <!-- Conquista individual com largura definida -->
+                <a href="https://canaltech.com.br/"><img src="IMAGENS/canaltech.jpg" alt="Canaltech"/></a> <!-- Link para o site do Canaltech com imagem e descrição alternativa -->
+            </div><!--Conquista-single-->
+    
+            <div class="conquista-single" style="width:16%;"> <!-- Conquista individual com largura definida -->
+                <a href="https://www.tecmundo.com.br/"><img src="IMAGENS/techmundo.jpg" alt="Tech Mundo"/></a> <!-- Link para o site do Tech Mundo com imagem e descrição alternativa -->
+            </div><!--Conquista-single-->
+    
+            <div class="conquista-single" style="width:16%;"> <!-- Conquista individual com largura definida -->
+                <a href="https://www.techtudo.com.br/"><img src="IMAGENS/techtudo.jpg" alt="Tech Tudo"/></a> <!-- Link para o site do Tech Tudo com imagem e descrição alternativa -->
+            </div><!--Conquista-single-->
+    
+            <div class="conquista-single" style="width:16%;"> <!-- Conquista individual com largura definida -->
+                <a href="https://tecnoblog.net/"><img src="IMAGENS/tecnoblog.jpg" alt="Tecnoblog"/></a> <!-- Link para o site do Tecnoblog com imagem e descrição alternativa -->
+            </div><!--Conquista-single-->
+        </div><!--Center-->
+    </section><!--Conquistas-->
+
+          <script src="./JS/menuResponsivo.js"></script><!-- Script externo para menu responsivo -->
+           <script src="https://www.drcode.com.br/nofollow/aviso-cookies/drcode.cookies.js"></script><!-- Script para aviso de cookies -->
+           <script>
+            avisoCookiesDrcode({
+                message:'Utilizamos cookies para que você tenha a melhor experiência em nosso site. Para saber mais acesse nossa página de Política de Privacidade',
+                backgroundColor:'rgba(255,255,255,0.95)',
+                textColor:'#666666',
+                buttonBackgoundColor:'#0e9a20',
+                buttonHoverBackgoundColor:'#0a6b16',
+                buttonTextColor:'#ffffff'
+                
+            })   
+           </script>
+        </body>
+    </html><!-- Fim do corpo da página e do documento HTML -->

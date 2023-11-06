@@ -1,0 +1,40 @@
+.container__section_center{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom:50px;
+  }
+  .content__section__center__text{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .container__section_center H5{
+    font-size: 1.0rem;
+  }
+
+  .card{
+    margin-top: 15px;
+  }
+
+  .card-text{
+    font-size: 14px;
+  }
+  .card img {
+    width: 100%;
+    height: 170px;
+  }
+  .card-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-card-body{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
